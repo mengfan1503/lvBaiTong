@@ -1,0 +1,107 @@
+
+image {
+	display: block;
+}
+.list-box-font {
+	width: 520rpx;
+	height: 100rpx;
+	display: flex;
+	align-items: center;
+	border-bottom: 4rpx solid rgb(230, 230, 230);
+	color: rgb(118, 118, 118);
+	font-size: 30rpx;
+	position: relative;
+	color: #333;
+}
+.yuan {
+	width: 15rpx;
+	height: 15rpx;
+	background-color: rgb(236, 128, 141);
+	position: absolute;
+	top: 35rpx;
+	left: 120rpx;
+	border-radius: 50%;
+}
+.icon-jiantou {
+	color: rgb(190, 190, 190);
+	margin-left: 20rpx;
+}
+.icon-yinsi,
+.icon-guanyuwomen1,
+.icon-yijianfankui,
+.icon-Group,
+.icon-zixun {
+	font-size: 40rpx;
+	margin-right: 20rpx;
+	color: rgb(141, 141, 141);
+}
+.list-box {
+	display: flex;
+	align-items: center;
+}
+.head-box {
+	width: 100%;
+	height: 400rpx;
+	background-color: rgb(71, 123, 255);
+	position: relative;
+}
+.icon-shezhi {
+	position: absolute;
+	right: 40rpx;
+	top: 70rpx;
+	font-size: 50rpx;
+	color: white;
+}
+.head-font {
+	display: flex;
+	font-size: 40rpx;
+	font-weight: bold;
+	color: white;
+	padding-top: 140rpx;
+	margin-left: 50rpx;
+}
+.head-font-img image {
+	width: 120rpx;
+	height: 120rpx;
+}
+.head-font-text {
+	margin-left: 20rpx;
+	margin-top: 40rpx;
+}
+.box {
+	position: absolute;
+	top: 300rpx;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	height: 220rpx;
+	position: absolute;
+	width: 90%;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20rpx;
+	box-shadow: -3rpx 5rpx 15rpx 4rpx rgba(116, 75, 239, 0.1);
+}
+.list-img {
+	width: 80rpx;
+	height: 80rpx;
+}
+.box-max {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 15rpx;
+}
+.box-odiv {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	margin-left: 0;
+	color: black;
+	font-size: 30rpx;
+}
+

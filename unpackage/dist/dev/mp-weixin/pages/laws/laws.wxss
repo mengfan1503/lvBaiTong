@@ -1,0 +1,155 @@
+
+ .swiper-item {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+ .swiper-item > image {
+  width: 100%;
+  height: 100%;
+}
+.wrap {
+  padding: 40rpx;
+  padding-bottom: 5rpx;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  /*图片宽度设置100% ，高度300upx（设为auto图片无法显示）*/
+}
+.container .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: #477BFF;
+}
+.container .header .header-left {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.container .header .header-left > image {
+  width: 30px;
+  height: 30px;
+}
+.container .header .header-left > label {
+  margin-left: 5px;
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.container .header .header-right {
+  width: 200px;
+  margin-right: 20px;
+}
+.container .header .header-right > u-search {
+  width: 100%;
+}
+.container .list {
+  margin: 10px;
+}
+.container .list .card {
+  height: 120px;
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.container .list .card .content {
+  display: flex;
+  justify-content: space-between;
+}
+.container .list .card .content .content-left {
+  width: 350rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .list .card .content .content-left .title {
+  font-size: 15px;
+}
+.container .list .card .content .content-right .img {
+  width: 100px;
+  height: 100px;
+}
+.container .list .card .content .content-right .img > image {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.container .list .card .icons {
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.container .list .card .icons .chat {
+  display: flex;
+}
+.container .list .card .icons .chat .chat-one {
+  display: flex;
+  align-items: center;
+}
+.container .list .card .icons .chat .chat-one .image {
+  margin-left: 10px;
+  width: 15px;
+  height: 15px;
+}
+.container .list .law {
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.container .list .law .lawtop {
+  font-size: 15px;
+}
+.container .list .law .lawtop > text {
+  display: -webkit-box;
+  /*弹性伸缩盒子模型显示*/
+  -webkit-box-orient: vertical;
+  /*排列方式*/
+  -webkit-line-clamp: 2;
+  /*显示文本行数*/
+  overflow: hidden;
+  /*溢出隐藏*/
+}
+.container .list .law .lawbottom {
+  font-size: 13px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.container .list .suits {
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.container .list .suits .title {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .uni-margin-wrap {
+  height: 100%;
+  margin: 0 0rpx;
+}
+.container .swiper {
+  height: 300rpx;
+}
+.container .swiper-item {
+  display: block;
+  line-height: 300rpx;
+  text-align: center;
+}
+.container .swiper-image {
+  width: 100%;
+  height: 300rpx;
+}
+.header-1 {
+  height: 50rpx;
+  width: 100%;
+  background-color: #477BFF;
+}
+

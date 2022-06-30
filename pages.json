@@ -1,0 +1,116 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus":{
+					"titleNView":false
+				}
+
+			}
+		},
+        {
+			"path": "pages/guide/guide",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/map/map",
+			"style": {
+				"navigationBarTitleText":"机器人分布地图",
+				"navigationBarBackgroundColor": "#F8F8F8"
+				}
+			
+		},
+		{
+			"path": "pages/zixun/zixun"
+		},
+		{
+			"path": "pages/laws/laws",
+			"style": {
+				"backgroundColor":"#F8F8F8",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/loge/loge",
+			"style": {
+				"navigationBarTitleText":"登录",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"backgroundColor":"#FFFFFF"
+				}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"backgroundColor":"#F8F8F8",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+			
+		}
+	    ,{
+            "path" : "pages/fastZixun/fastZixun",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "快速咨询",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "律百通智能机器人",
+		"navigationBarBackgroundColor": "#477BFF"
+	
+		
+		
+	},
+	"tabBar": {
+		"color": "#696969", //未选中字体颜色
+		"selectedColor": "#477BFF", //选中字体颜色
+		"backgroundColor": "#FFFFFF", //tabbar背景颜色
+		"borderStyle": "black", //上边框颜色
+		// "midButton": {
+		// 	"width": "80px",
+		// 	"height": "70px",
+		// 	"text": "智能咨询",
+		// 	"iconPath": "static/consult.png",
+		// 	"iconWidth": "48px"
+
+		// },
+		"list": [{
+				"text": "首页", //bar文本
+				"pagePath": "pages/index/index", //导航路径
+				"iconPath": "static/icon/home.png", //未选中图片
+				"selectedIconPath": "static/icon/home-active.png" //已选中图片
+			},
+			
+			{
+				"text": "法律小知识",
+				"pagePath": "pages/laws/laws",
+				"iconPath": "static/laws.png",
+				"selectedIconPath": "static/laws-active.png"
+			},
+		
+			{
+				"text": "个人中心",
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/icon/mine.png",
+				"selectedIconPath": "static/icon/mine-acitve.png"
+			}
+		]
+
+	}
+}

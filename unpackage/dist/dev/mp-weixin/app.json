@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/guide/guide",
+    "pages/map/map",
+    "pages/zixun/zixun",
+    "pages/laws/laws",
+    "pages/loge/loge",
+    "pages/mine/mine",
+    "pages/fastZixun/fastZixun"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "律百通智能机器人",
+    "navigationBarBackgroundColor": "#477BFF"
+  },
+  "tabBar": {
+    "color": "#696969",
+    "selectedColor": "#477BFF",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home-active.png"
+      },
+      {
+        "text": "法律小知识",
+        "pagePath": "pages/laws/laws",
+        "iconPath": "static/laws.png",
+        "selectedIconPath": "static/laws-active.png"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/icon/mine.png",
+        "selectedIconPath": "static/icon/mine-acitve.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

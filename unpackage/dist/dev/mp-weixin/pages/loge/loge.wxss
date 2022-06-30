@@ -1,0 +1,41 @@
+
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #FFFFFF
+}
+.logo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top:150rpx;
+}
+.logo image {
+	height: 200rpx;
+	width: 200rpx;
+}
+.logo text {
+	margin-top: 10rpx;
+	font-size: 30rpx;
+}
+.third {
+	margin-top: 738rpx;
+}
+.third text {
+	
+	font-size: 30rpx;
+	color: #007AFF;
+}
+.wxloge {
+	margin-top: 30rpx;
+}
+.wxloge image {
+	height: 100rpx;
+	width: 100rpx;
+}
+

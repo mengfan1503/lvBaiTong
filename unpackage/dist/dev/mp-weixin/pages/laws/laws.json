@@ -1,0 +1,12 @@
+{
+  "backgroundColor": "#F8F8F8",
+  "usingComponents": {
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-collapse": "/uview-ui/components/u-collapse/u-collapse",
+    "u-collapse-item": "/uview-ui/components/u-collapse-item/u-collapse-item",
+    "u-read-more": "/uview-ui/components/u-read-more/u-read-more",
+    "uni-icons": "/components/yangxiaochuang-icons/yangxiaochuang-icons"
+  }
+}
